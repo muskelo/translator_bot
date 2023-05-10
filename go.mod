@@ -5,7 +5,6 @@ go 1.20
 require (
 	github.com/davidebianchi/go-jsonclient v1.3.0
 	github.com/lib/pq v1.10.9
-	github.com/snakesel/libretranslate v0.0.2
 	gopkg.in/telebot.v3 v3.1.3
 	xorm.io/xorm v1.3.2
 )
