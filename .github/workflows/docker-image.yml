@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag translator_bot:$(date +%s) --tag translator_bot:test
+      run: docker build . --file Dockerfile --tag translator_bot:$(date +%s) --tag translator_bot:latest
