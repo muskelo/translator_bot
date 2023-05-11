@@ -8,7 +8,7 @@ Bot provides an interface to the [libretranslate](https://github.com/LibreTransl
 - /primary \<lang\> - set primary language
 - /secondary \<lang\> - set secondary language
 - /t \<lang1> \<lang2\> - transalte replied message from lang1 to lang2
-- \<text message\> - try to translate the message into the primary language, from primary will translate into secondary language
+- \<text message\> - translate the text into the primary language, from the primary language translates into the secondary language
 
 ## Instalation (docker-compose)
 1) create docker-compose.yml from examples/docker-compose-example.yml
